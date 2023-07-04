@@ -1,0 +1,179 @@
+*{
+	margin: 0px;
+	/*font-family: 'Poppins', sans-serif;*/
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:'Playfair Display', serif;
+}
+.navbar{
+	background-color:white;
+	width:100%;
+	position:fixed;
+	top:0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+	padding: 18px 20px;
+	z-index: 1;
+	box-sizing: border-box;
+    
+}
+.navbar ul{
+	list-style-type: none;
+	display:inline-flex;
+	margin: 0;
+	padding: 0;
+}
+.navbar a{
+	color:black;
+	letter-spacing: 4px;
+}
+.navbar a:link{
+	text-decoration: none;
+	padding: 10px 15px;
+}
+.navbar a:active{
+	text-decoration: none;
+	color: black;
+	background-color: lightgrey;
+	padding: 10px 15px;
+}
+.navbar a:hover{
+	text-decoration: none;
+	color: black;
+	background-color:lightgrey;
+}
+.navbar li{
+
+}
+.hamburger{
+	background-image: url("images/hamburger.jpg");
+	width:100%;
+	background-size:cover;
+	height:647.5px;
+	position: relative;
+}
+.bannerTag{
+	color: black;
+	position: absolute;
+	bottom:10%;
+	left:2%;
+	color: grey;
+	letter-spacing: 4px;
+}
+.ab2{
+    padding: 85px 120px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.tableSetting{
+	display: flex;
+    justify-content: space-evenly;
+}
+.table img{
+	width:501.98px;
+	height:627.47px;
+}
+.ab1{
+	letter-spacing: 4px;
+}
+.table{
+	width:48%;
+}
+.tableArticle{
+	width:48%;
+}
+.tableArticle h1{
+	text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 66px;
+    font-weight: 200;
+    margin-top: 20px
+}
+.tableArticle h4{
+	text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 35px;
+    font-weight: 200;
+}
+.tableArticle p{
+	font-size: 19px;
+    line-height: 30px;
+}
+.season {
+	background-color: #f1f1f1;
+	padding: 0 8px;
+}
+.loremIpsum {
+	color:#757575;
+	padding-top: 15px;
+}
+.ab2 hr{
+	margin-top:120px;
+	border: none;
+    border-bottom: 1px solid #eee;
+}
+.menu {
+	display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.menuPic img{
+	width:501.98px;
+	height:752.97px;
+}
+.menuItem {
+
+}
+.menuItem h1{
+	text-align: center;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 55px;
+    letter-spacing: 5px;
+}
+.menuItem p{
+	color:grey;
+	padding-bottom: 45px;
+}
+.menuItem h4{
+	letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.aboutInfo h1{
+	padding-top: 110px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.aboutInfo h4{
+	color:grey;
+}
+.forCustomer input{
+	width: 96%;
+	height: 55px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+.forCustomer button{
+	border:none;
+	padding: 10px 18px;
+    margin-top: 20px;
+}
+.forCustomer button:hover{
+	background-color: darkgrey;
+}
+.footer {
+	background-color: #f1f1f1;
+	text-align: center;
+    padding:45px 0px 35px 0px;
+}
+.footer a{
+	color: black;
+}
+.footer a:hover{
+	color: lightgreen;
+}
